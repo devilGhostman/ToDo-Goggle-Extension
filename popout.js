@@ -9,7 +9,7 @@ document
 
     if (itemName != "") {
       var itemsStorage = localStorage.getItem("todo-items");
-      var itemsArr = JSON.parse(itemsStorage);
+      var itemsArr = JSON.parse(itemsStorage ?? "[]");
       itemsArr.push({ item: itemName, status: 0 });
       saveItems(itemsArr);
       fetchItems();
@@ -33,7 +33,7 @@ function fetchItems() {
       }
       newItemHTML += `<li data-itemindex="${i}" ${status}>
       <span class="item">${itemsArr[i].item}</span>
-      <div><span class="itemComplete">✅</span><span class="itemDelete">🗑</span></div>
+      <div class="icons" ><span class="itemComplete">✅</span><span class="itemDelete">🗑</span></div>
       </li>`;
     }
 

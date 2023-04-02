@@ -4,12 +4,14 @@ body{
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
     background: linear-gradient(135deg, #289bf3, #2D5CFE);
 }
 
 .topic{
     display: flex;
     justify-content: center;
+    align-content: center;
     font-size: 10px;
     margin: 0px;
     background-color: #ced8e0;
@@ -106,7 +108,7 @@ h1{
 
 
 .filters span{
-    margin: 0 8px;
+    margin: 8px 8px;
     font-size: 17px;
     color: #444444;
     cursor: pointer;
@@ -130,6 +132,13 @@ h1{
     margin-bottom: 0px;
     padding-bottom: 0px;
     align-items: flex-start;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
 
 .todo-items div span{
