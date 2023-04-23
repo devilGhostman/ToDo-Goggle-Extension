@@ -7,7 +7,7 @@
 ### Cloning the repository
 
 ```shell
-https://github.com/devilGhostman/Trendz.git
+https://github.com/devilGhostman/ToDo-Goggle-Extension.git
 ```
 
 
